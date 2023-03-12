@@ -1,15 +1,15 @@
 {
-  "files": {
-    "main.css": "/vehiclesite/static/css/main.c6d9ac00.css",
-    "main.js": "/vehiclesite/static/js/main.47771ade.js",
-    "static/js/787.6007436b.chunk.js": "/vehiclesite/static/js/787.6007436b.chunk.js",
-    "index.html": "/vehiclesite/index.html",
-    "main.c6d9ac00.css.map": "/vehiclesite/static/css/main.c6d9ac00.css.map",
-    "main.47771ade.js.map": "/vehiclesite/static/js/main.47771ade.js.map",
-    "787.6007436b.chunk.js.map": "/vehiclesite/static/js/787.6007436b.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.c6d9ac00.css",
-    "static/js/main.47771ade.js"
-  ]
+  "main.css": "/vehiclesite/static/css/main.cea4141a.chunk.css",
+  "main.js": "/vehiclesite/static/js/main.a409105b.chunk.js",
+  "main.js.map": "/vehiclesite/static/js/main.a409105b.chunk.js.map",
+  "static/js/1.4587b355.chunk.js": "/vehiclesite/static/js/1.4587b355.chunk.js",
+  "static/js/1.4587b355.chunk.js.map": "/vehiclesite/static/js/1.4587b355.chunk.js.map",
+  "static/js/2.7bfcc10e.chunk.js": "/vehiclesite/static/js/2.7bfcc10e.chunk.js",
+  "static/js/2.7bfcc10e.chunk.js.map": "/vehiclesite/static/js/2.7bfcc10e.chunk.js.map",
+  "runtime~main.js": "/vehiclesite/static/js/runtime~main.12b5c2ab.js",
+  "runtime~main.js.map": "/vehiclesite/static/js/runtime~main.12b5c2ab.js.map",
+  "static/css/main.cea4141a.chunk.css.map": "/vehiclesite/static/css/main.cea4141a.chunk.css.map",
+  "index.html": "/vehiclesite/index.html",
+  "precache-manifest.aeb64f2144c36ab48acba3ba24dd4f3f.js": "/vehiclesite/precache-manifest.aeb64f2144c36ab48acba3ba24dd4f3f.js",
+  "service-worker.js": "/vehiclesite/service-worker.js"
 }
