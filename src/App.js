@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import Car from './Car'
 import './App.css';
+import './cars.css'
+import useFetch from './useFetch'
 
 function App() {
+
+  const { data, loading, error } = useFetch('https://yegorka78.github.io/gscars/data/db.json')
+  if (loading) return <h1> LOADING ... </h1>
+  if (error) console.log(error);
+
+  const cars = data.cars
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Here it is</h1>
+      <ul className="carList">
+      {cars.map(car => (
+				<Car car={car} />
+			))}
+      
+      </ul>
     </div>
   );
 }
